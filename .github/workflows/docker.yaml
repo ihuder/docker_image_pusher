@@ -111,6 +111,7 @@ jobs:
         
             echo "docker pull $line"
             docker login -u $HUB_USER -p $HUB_PASSWORD
+            echo "logined"
             docker pull $line
               docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
@@ -147,7 +148,7 @@ jobs:
             echo "docker tag $image $new_image"
             docker tag $image $new_image
             echo "docker push $new_image"
-            docker login -u $ALIYUN_REGISTRY_USER -p $ALIYUN_REGISTRY_PASSWORD $ALIYUN_REGISTRY
+          
             docker push $new_image
             echo "开始清理磁盘空间"
             echo "=============================================================================="
