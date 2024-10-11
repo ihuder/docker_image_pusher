@@ -2,6 +2,7 @@
 #支持私库
 #gitlab/gitlab-ee
 # gitlab/gitlab-ce:11.1.4-ce.0
-whyour/qinglong:latest
+#whyour/qinglong:latest
+zhangsean/yearning
 #支持指定架构
 #--platform=linux/amd64 xiaoyaliu/alist
