@@ -1,6 +1,5 @@
 #nginx
 #支持私库
-#gitlab/gitlab-ee
 # gitlab/gitlab-ce:11.1.4-ce.0
 #whyour/qinglong:latest
 hanchuanchuan/goinception
