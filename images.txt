@@ -3,6 +3,6 @@
 # gitlab/gitlab-ce:11.1.4-ce.0
 #whyour/qinglong:latest
 # gotify/server:latest
-php:7.4-fpm-bullseye
+apache/hertzbeat:latest
 #支持指定架构
 #--platform=linux/amd64 xiaoyaliu/alist
