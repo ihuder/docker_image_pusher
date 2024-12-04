@@ -4,5 +4,5 @@
 #whyour/qinglong:latest
 # gotify/server:latest
 jumpserver/jms_all:v3.10.11
-#支持指定架构
+#支持指定架构 
 #--platform=linux/amd64 xiaoyaliu/alist
