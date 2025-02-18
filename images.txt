@@ -1,6 +1,8 @@
 #nginx
 #支持私库
-minio/minio:RELEASE.2023-03-20T20-16-18Z
+milvusdb/milvus:v2.4.8
+mysql:8.4
+xixihahaliu01/qanything-linux:v1.5.1
 # gotify/server:latest
 #dockurr/windows
 #支持指定架构
