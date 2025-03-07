@@ -6,6 +6,6 @@ xixihahaliu01/qanything-linux:v1.5.1
 # gotify/server:latest
 #dockurr/windows
 #支持指定架构
---platform=linux/amd64 python:3.9.21-bookworm
+--platform=linux/amd64 redis:5.0.14-bullseye
 # --platform=linux/amd64 xiaoyaliu/alist
 
