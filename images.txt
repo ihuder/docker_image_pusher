@@ -6,7 +6,7 @@
 # gotify/server:latest
 #dockurr/windows
 #支持指定架构
---platform=	linux/arm64/v8 redis:5.0.14-bullseye
+--platform=linux/arm64/v8 redis:5.0.14-bullseye
 #--platform=	linux/arm64/v8 python:3.9.21-bookworm
 # --platform=linux/amd64 xiaoyaliu/alist
 
