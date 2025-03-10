@@ -7,6 +7,6 @@
 #dockurr/windows
 #支持指定架构
 #--platform=linux/arm64/v8 redis:5.0.14-bullseye
---platform=linux/arm64/v8 golang:tip-bullseye
+--platform=linux/arm64/v8 golang:1.14.15
 # --platform=linux/amd64 xiaoyaliu/alist
 
